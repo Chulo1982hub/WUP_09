@@ -18,6 +18,13 @@ require(tigerstats)
 require(tidyverse)
 ```
 
+## read in fishy data
+```{r}
+fishA11 = read_csv('Fish.csv')
+```
+
+
+
 # Predicting Fish Weight
 
 
