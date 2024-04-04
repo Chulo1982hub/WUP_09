@@ -61,6 +61,12 @@ subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2
 summary.out$which[3,]
 ```
 
+```{r}
+#best model
+perchBest2=lm(Weight~Height+Width,
+data=perchFish)
+summary.lm(perchBest2)
+```
 
 
 ### Best Models
