@@ -81,7 +81,6 @@ summary.lm(perchBest2)
 
 
 ## Pike
-
 ```{r}
 pikeFish = filter(fishA11, Species=='Pike') 
 pikeModel = lm(Weight~Length1+Length2+Length3+Height+Width, data= pikeFish)
@@ -105,10 +104,26 @@ subsets(regsubsets.out,statistic="adjr2",legend="bottomright",main="Adjusted R^2
 ```
 
 ### Best Models
+The best models are Length1 and length3. Linear model weight depend on Linear model One.  
 
 ### Best Two regressor model
+```{r}
+#best model
+pikeBest2=lm(Weight~Height+Width,
+data=pikeFish)
+summary.lm(pikeBest2)
+```
 
 ## Roach
+```{r}
+RoachFish = filter(fishA11, Species=='Roach') 
+RoachModel = lm(Weight~Length1+Length2+Length3+Height+Width, data= RoachFish)
+summary.lm(RoachModel)
+```
+
+
+
+
 
 ### Best Models
 
