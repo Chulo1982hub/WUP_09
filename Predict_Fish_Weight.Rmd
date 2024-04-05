@@ -150,3 +150,12 @@ summary.lm(RoachBest2)
 
 
 ## Final Summary Statements
+we constructed multiple regression models to predict the weight of Perch, Pike, and Roach using two predictor variables each. based on this table.
+
+Perch model: Adjusted  = 0.85
+Pike model: Adjusted = 0.78
+Roach model: Adjusted  = 0.82
+the Perch model has the highest R-squared value (0.85), indicating that it explains the most variance in Perch weight among the three models. Therefore, the Perch regression model is the best among the weight prediction models for Perch, Pike, and Roach.
+
+
+
